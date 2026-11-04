@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080b27"/><stop offset=".55" stop-color="#211052"/><stop offset="1" stop-color="#090e2c"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#7b36e8" stop-opacity=".55"/><stop offset="1" stop-color="#151039" stop-opacity="0"/></radialGradient>
+ <linearGradient id="skin" x2=".2" y2="1"><stop stop-color="#f5b18b"/><stop offset=".55" stop-color="#d98968"/><stop offset="1" stop-color="#a95d50"/></linearGradient>
+ <linearGradient id="hood" x2="1" y2="1"><stop stop-color="#3e4ec0"/><stop offset=".55" stop-color="#542b9c"/><stop offset="1" stop-color="#171a58"/></linearGradient>
+ <linearGradient id="laptop" x2="1" y2="1"><stop stop-color="#102b62"/><stop offset="1" stop-color="#090f30"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="640" height="640" rx="40" fill="url(#bg)"/>
+<ellipse cx="320" cy="300" rx="300" ry="300" fill="url(#halo)"/>
+<rect x="35" y="35" width="570" height="570" rx="34" fill="none" stroke="#a34cff" stroke-width="4" filter="url(#glow)"/>
+<g fill="none" stroke="#20cfff" stroke-width="3" opacity=".75"><path d="M55 145h95l32-32h72"/><path d="M585 145h-95l-30-30h-68"/><path d="M55 420h75l28-28h50"/><path d="M585 420h-72l-30-28h-48"/></g>
+<g fill="#fff"><circle cx="125" cy="92" r="3"/><circle cx="500" cy="90" r="3"/><circle cx="80" cy="285" r="2"/><circle cx="555" cy="300" r="3"/><circle cx="110" cy="500" r="2"/></g>
+<!-- code and AI panels -->
+<g filter="url(#glow)" font-family="monospace" font-weight="bold">
+ <rect x="65" y="220" width="130" height="75" rx="17" fill="#101d4b" stroke="#29dfff" stroke-width="3"/>
+ <text x="130" y="270" text-anchor="middle" font-size="32" fill="#5eeaff">&lt;/&gt;</text>
+ <rect x="445" y="220" width="130" height="75" rx="17" fill="#211044" stroke="#c45cff" stroke-width="3"/>
+ <text x="510" y="270" text-anchor="middle" font-size="32" fill="#df8cff">AI</text>
+</g>
+<!-- shoulders and hoodie -->
+<path d="M130 570c10-145 56-210 150-225l40 45 42-45c93 16 138 81 148 225z" fill="url(#hood)" stroke="#a66cff" stroke-width="5"/>
+<path d="M245 355q75 95 150 0" fill="none" stroke="#b5a0ff" stroke-width="8"/>
+<path d="M300 390v105m40-105v105" stroke="#53dcff" stroke-width="6" stroke-linecap="round"/>
+<!-- neck -->
+<path d="M275 315v72q45 50 90 0v-72" fill="url(#skin)"/>
+<!-- ears and face -->
+<ellipse cx="235" cy="245" rx="28" ry="46" fill="#c77b60"/>
+<ellipse cx="405" cy="245" rx="28" ry="46" fill="#c77b60"/>
+<path d="M235 205c0-92 45-143 85-143s85 51 85 143v82c-8 70-48 113-85 113s-77-43-85-113z" fill="url(#skin)" stroke="#ffbf9c" stroke-width="3"/>
+<!-- curly hair silhouette -->
+<path d="M222 230c-25-80 12-160 70-174 15-38 66-35 84-13 47-16 90 20 85 62 36 29 29 85 8 124l-20 7-14-52c-29-5-58-22-76-47-31 35-75 51-125 47l-2 50z" fill="#171126" stroke="#7142a7" stroke-width="5"/>
+<g fill="#21142f" stroke="#8b4ac7" stroke-width="3">
+ <circle cx="250" cy="116" r="31"/><circle cx="282" cy="86" r="32"/><circle cx="323" cy="78" r="34"/><circle cx="366" cy="87" r="33"/><circle cx="405" cy="112" r="31"/><circle cx="432" cy="151" r="27"/>
+ <circle cx="238" cy="160" r="25"/><circle cx="272" cy="142" r="27"/><circle cx="310" cy="125" r="29"/><circle cx="350" cy="127" r="29"/><circle cx="389" cy="146" r="28"/>
+</g>
+<g fill="none" stroke="#a75bdb" stroke-width="7" stroke-linecap="round" opacity=".8">
+ <path d="M232 115q-2-28 26-31q22 1 21 23"/><path d="M279 79q7-29 34-23q21 6 17 27"/><path d="M336 65q24-17 41 5q9 16-4 27"/><path d="M386 91q28-5 35 22q2 18-14 25"/><path d="M255 151q-3-24 21-28q19 0 22 18"/><path d="M319 118q-2-22 22-25q22 1 25 22"/>
+</g>
+<!-- eyebrows, eyes and glasses -->
+<path d="M256 222q25-15 50-2m32 0q25-13 50 2" fill="none" stroke="#39212a" stroke-width="9" stroke-linecap="round"/>
+<g fill="none" stroke="#151a3b" stroke-width="9"><rect x="247" y="232" width="72" height="48" rx="16"/><rect x="337" y="232" width="72" height="48" rx="16"/><path d="M319 250h18"/></g>
+<g fill="#17152a"><ellipse cx="283" cy="256" rx="7" ry="9"/><ellipse cx="373" cy="256" rx="7" ry="9"/></g>
+<g fill="#fff"><circle cx="285" cy="253" r="2.5"/><circle cx="375" cy="253" r="2.5"/></g>
+<path d="M327 264l-10 40q9 9 20 0" fill="none" stroke="#9c5549" stroke-width="5" stroke-linecap="round"/>
+<path d="M296 327q30 22 60 0" fill="none" stroke="#7b3941" stroke-width="7" stroke-linecap="round"/>
+<!-- laptop -->
+<g filter="url(#glow)">
+ <path d="M150 475h340l-25 132H175z" fill="url(#laptop)" stroke="#36dfff" stroke-width="7"/>
+ <path d="M125 608h390l-25 18H150z" fill="#34266d" stroke="#bd65ff" stroke-width="5"/>
+ <text x="320" y="552" text-anchor="middle" font-family="monospace" font-size="55" fill="#66eaff">&lt;/&gt;</text>
+ <path d="M270 575h100" stroke="#c35cff" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>
