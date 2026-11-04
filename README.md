@@ -32,7 +32,7 @@ I'm an **Electronics and Communication Engineering student at R.M.K. College of 
 - I enjoy turning concepts into working prototypes — from sensors and edge devices to intelligent applications.
 
 <div align="center">
-<img align="right" width="235" src="https://raw.githubusercontent.com/Allen-Ronaldo-C/Allen-Ronaldo-C/main/assets/developer-avatar.svg" alt="Illustrated developer avatar with laptop and engineering interface" />
+<img align="right" width="235" src="https://raw.githubusercontent.com/Allen-Ronaldo-C/Allen-Ronaldo-C/main/assets/animated-developer-avatar.svg" alt="Illustrated developer avatar with laptop and engineering interface" />
 </div>
 
 ## WHAT I'M INTO
