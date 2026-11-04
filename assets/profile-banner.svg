@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08091f"/><stop offset=".52" stop-color="#111044"/><stop offset="1" stop-color="#260b3f"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#ff54d9" stop-opacity=".9"/><stop offset=".5" stop-color="#7a35ff" stop-opacity=".25"/><stop offset="1" stop-color="#090a22" stop-opacity="0"/></radialGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00d9ff"/><stop offset=".5" stop-color="#9d4dff"/><stop offset="1" stop-color="#ff39c8"/></linearGradient>
+ <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f6f7ff"/><stop offset=".5" stop-color="#b9dfff"/><stop offset="1" stop-color="#ffc9f5"/></linearGradient>
+ <pattern id="grid" width="70" height="34" patternUnits="userSpaceOnUse"><path d="M70 0H0V34" fill="none" stroke="#6c8cff" stroke-opacity=".34" stroke-width="1"/></pattern>
+</defs>
+<rect width="1600" height="460" fill="url(#bg)"/>
+<ellipse cx="800" cy="280" rx="610" ry="250" fill="url(#glow)"/>
+<g fill="#fff"><circle cx="95" cy="72" r="2"/><circle cx="180" cy="160" r="1.5"/><circle cx="320" cy="55" r="2"/><circle cx="470" cy="110" r="1.5"/><circle cx="620" cy="48" r="1.5"/><circle cx="1010" cy="70" r="2"/><circle cx="1190" cy="115" r="1.5"/><circle cx="1390" cy="62" r="2"/><circle cx="1510" cy="180" r="1.5"/></g>
+<g opacity=".8" stroke="#8c4cff" fill="none"><path d="M0 110H170l28-28h100"/><path d="M0 130H110l25-25h120"/><path d="M1600 120h-140l-32 32h-110"/><path d="M1600 142h-95l-25 25h-150"/></g>
+<!-- ringed planet -->
+<circle cx="1375" cy="112" r="63" fill="#261a65" stroke="#b75bff" stroke-width="2"/>
+<ellipse cx="1375" cy="112" rx="112" ry="25" fill="none" stroke="#ff56d9" stroke-width="5" transform="rotate(-18 1375 112)"/>
+<ellipse cx="1375" cy="112" rx="112" ry="25" fill="none" stroke="#65dfff" stroke-width="1.5" transform="rotate(-18 1375 112)"/>
+<!-- satellite -->
+<g transform="translate(115 190)" stroke="#58dfff" stroke-width="3" fill="#141b55"><rect x="0" y="0" width="68" height="42" rx="5"/><path d="M-70 -8h60v58h-60zM78 -8h60v58H78z" fill="#21216b"/><path d="M34 42v44m-18 0h36" /></g>
+<!-- robotic arm -->
+<g transform="translate(1460 230)" fill="none" stroke="#b86bff" stroke-width="13" stroke-linecap="round"><path d="M0 90l-30-70-48-20"/><circle cx="-30" cy="20" r="17" fill="#151644"/><path d="M-78 0l-40-32"/><circle cx="-118" cy="-32" r="13" fill="#151644"/><path d="M-118-32l-20-28m20 28l25-16"/></g>
+<!-- floor -->
+<path d="M0 335H1600V460H0z" fill="#090d2c" opacity=".7"/>
+<path d="M0 335H1600V460H0z" fill="url(#grid)"/>
+<path d="M800 335L0 460M800 335L1600 460M800 335L400 460M800 335L1200 460M800 335L650 460M800 335L950 460" stroke="url(#floor)" stroke-opacity=".65" fill="none"/>
+<path d="M0 335H1600" stroke="#ff64e8" stroke-width="3" opacity=".8"/>
+<!-- center typography -->
+<text x="800" y="205" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="800" letter-spacing="5" fill="url(#title)">ALLEN RONALDO C</text>
+<text x="800" y="252" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" letter-spacing="6" fill="#c5c9ff">ENGINEERING INTELLIGENCE INTO REALITY</text>
+<text x="800" y="300" text-anchor="middle" font-family="monospace" font-size="15" letter-spacing="3" fill="#5ee7ff">AI / ML  ·  EMBEDDED SYSTEMS  ·  VLSI  ·  ROBOTICS</text>
+</svg>
